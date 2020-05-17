@@ -12,7 +12,7 @@ var directory = __dirname + '/public';
 *information and we know that because the port won't be set */
 if(typeof port == 'undefined' || !port){
     directory = './public';
-    port - 8080;
+    port = 8080;
 }
 
 /* Set up a static web-server that will deliver files from the filesystem */
